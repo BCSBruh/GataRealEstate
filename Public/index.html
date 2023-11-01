@@ -28,36 +28,47 @@
       </nav>
     </div>
 
-    <div id="splash">
-      <h1 class="title center">Welcome to the future of home buying</h1>
-      <div>
-        <ul class="search-buttons center">
-          <!--TODO Turn these into actual buttons-->
-          <li class="nav-item">
-            <a href="#buy">Buy</a>
-          </li>
-          <li class="nav-item">
-            <a href="#rent">Rent</a>
-          </li>
-        </ul>
+    <div id="splash" class="container">
+      <h1 class="title child">Welcome to the future of home buying</h1>
+      <div class="search-buttons child">
+        <div class="button">
+          <a href="#buy">Buy</a>
+        </div>
+        <div class="button">
+          <a href="#rent">Rent</a>
+        </div>
       </div>
-      <div id="searchBar" class="center">
+      <div id="searchBar" class="">
         <input type="text" placeholder="Statesboro, GA" />
       </div>
     </div>
 
-    <!--TODO Make this a div with cards for each city-->
-    <div id="cityCards">
-      <h2 class="center">Explore homes on Gata Real Estate</h2>
-      <ul class="cards">
-        <li>Statesboro, GA</li>
-        <li>Atlanta, GA</li>
-      </ul>
+    <div id="cityCards" class="container">
+      <div class="container">
+        <h2 class="">Explore homes on Gata Real Estate</h2>
+        <p>
+          Browse homes for sale or rent, original photos of the homes, resident
+          reviews, and immersive 3D and Virtual Reality views to find the
+          perfect home.
+        </p>
+      </div>
+      <div class="cards">
+        <div id="statesboro" class="card">
+          <div>
+            <h3><b>Statesboro, GA</b></h3>
+          </div>
+        </div>
+        <div id="atlanta" class="card">
+          <div>
+            <h3><b>Atlanta, GA</b></h3>
+          </div>
+        </div>
+      </div>
     </div>
 
     <!--TODO Make this a div with cards for each house-->
-    <div id="recentHomes">
-      <h2 class="center">Newly listed homes in Statesboro</h2>
+    <div id="recentHomes" class="container">
+      <h2 class="">Newly listed homes in Statesboro</h2>
       <ul class="cards">
         <li>200,000</li>
         <li>80,000</li>
