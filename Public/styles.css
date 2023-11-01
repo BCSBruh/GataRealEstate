@@ -1,0 +1,21 @@
+nav {
+  display: inline-block;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0%;
+}
+
+.company {
+  display: inline;
+}
+
+.nav-item {
+  padding: 0 18px 0 18px;
+  display: inline;
+}
+
+.navbar-nav {
+  display: inline;
+}
