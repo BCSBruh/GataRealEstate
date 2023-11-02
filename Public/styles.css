@@ -163,13 +163,27 @@ a {
   text-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
 }
 
+#city a {
+  width: 45%;
+}
+
 #atlanta {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     url(./images/atlanta.jpg);
 }
 
+#atlanta:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url(./images/atlanta.jpg);
+}
+
 #statesboro {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(./images/statesboro.jpg);
+}
+
+#statesboro:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
     url(./images/statesboro.jpg);
 }
 
@@ -238,8 +252,18 @@ a {
   background-image: url(./images/House1.jpg);
 }
 
+#house1 .card:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(./images/House1.jpg);
+}
+
 #house2 .card {
   background-image: url(./images/House2.jpg);
+}
+
+#house2 .card:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(./images/House2.jpg);
 }
 
 #footer {
