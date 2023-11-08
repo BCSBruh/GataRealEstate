@@ -43,8 +43,27 @@
       </div>
       <div id="searchBar" class="">
         <!--TODO If anything other than Statesboro or Atlanta is searched send to error page-->
-        <input type="text" placeholder="Statesboro, GA" />
+        <input type="text" id= "location" placeholder="Statesboro, GA" />
+
+        <script>
+
+            document.getElementById("location").addEventListener("keydown", function(event) {
+            // Check if the "Enter" key was pressed
+            if (event.key === "Enter") {
+                // Get the input value and convert it to lowercase for case-insensitive comparison
+                var locationInput = event.target.value.toLowerCase();
+
+                // Check if the input matches "Statesboro" or "Atlanta"
+                if (locationInput !== "statesboro" && locationInput !== "atlanta") {
+                    // Display an error message or take another action
+                    alert("Please enter 'Statesboro' or 'Atlanta' for your search.");
+                }
+            }
+        });
+        </script>
+
       </div>
+
     </div>
 
     <div id="cityCards" class="container">
