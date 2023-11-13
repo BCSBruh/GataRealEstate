@@ -7,7 +7,7 @@ function SearchBar(props) {
   function search(event) {
     //setSearchInput(event.target.value);
     if (
-      searchInput !== "statesboro, ga" &&;
+      searchInput !== "statesboro, ga" &&
       searchInput !== "atlanta, ga" &&
       searchInput !== "statesboro" &&
       searchInput !== "atlanta"
@@ -30,7 +30,10 @@ function SearchBar(props) {
         placeholder={props.placeholder}
       />
       <button type="submit" id="searchIcon">
-        <img src="https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png"></img>
+        <img
+          src="https://cdn2.hubspot.net/hubfs/4004166/bioticresearch_website_assets/images/search_icon.png"
+          alt="search-icon"
+        ></img>
       </button>
     </form>
   );
