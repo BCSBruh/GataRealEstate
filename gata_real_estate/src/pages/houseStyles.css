@@ -1,0 +1,146 @@
+.navbar {
+  background-color: #363062;
+}
+
+.house-pictures {
+  height: 30em;
+  width: 50em;
+  overflow: hidden;
+  display: flex;
+  margin: auto;
+  border-radius: 10px;
+  flex-direction: column;
+}
+
+.house-pictures img {
+  height: 100%;
+  width: 100%;
+}
+
+.house-info {
+  width: 50em;
+  height: 20em;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  overflow: hidden;
+  height: 30em;
+}
+
+.right-column {
+  height: 30em;
+  width: 30%;
+}
+
+.details {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 10em;
+}
+
+.top-details {
+  width: 70%;
+  overflow: hidden;
+  padding: 10px 15px 10px;
+}
+
+#housePage .price {
+  padding: 10px 15px 10px;
+  height: 7em;
+  width: 30%;
+}
+
+#housePage .info {
+  display: flex;
+  margin: auto;
+  justify-content: left;
+  height: 2em;
+}
+
+#housePage .info p {
+  display: inline;
+  text-align: left;
+  padding: 0;
+}
+
+#housePage .info-details {
+  display: flex;
+  margin: 0;
+  align-items: center;
+}
+
+#housePage .info-details img {
+  height: 100%;
+}
+
+.tour {
+  margin: 20px 10px 0px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.tour div {
+  height: 3em;
+}
+
+.tour button {
+  background-color: #f99417;
+  color: white;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.button {
+  overflow: hidden;
+  margin-top: 10px;
+}
+
+.description {
+  flex-direction: column;
+}
+
+.house-address {
+  display: flex;
+  flex-direction: row;
+}
+
+.house-address h4 {
+  margin-right: 10px;
+}
+
+.survey {
+  margin-top: 5em;
+  height: 10em;
+  text-align: center;
+}
+
+.star-rating button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 10px;
+  font-size: 5rem;
+}
+
+.star {
+  height: 100%;
+  width: 100%;
+}
+
+.on {
+  color: #f99417;
+}
+.off {
+  color: #ccc;
+}

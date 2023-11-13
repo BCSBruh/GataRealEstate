@@ -23,7 +23,12 @@ function SearchBar(props) {
   }
 
   return (
-    <form id="searchBar" className="container" onSubmit={search}>
+    <form
+      autoComplete="off"
+      id="searchBar"
+      className="container"
+      onSubmit={search}
+    >
       <input
         name="location"
         onChange={setText}
