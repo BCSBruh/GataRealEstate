@@ -27,7 +27,7 @@ const houseCards = {
   houses: [
     {
       id: "house1",
-      href: "#header",
+      href: "/house1",
       listingDate: "NEW - 2 DAYS AGO",
       bottomInfo: [
         {
@@ -58,7 +58,7 @@ const houseCards = {
     },
     {
       id: "house2",
-      href: "#header",
+      href: "/house2",
       listingDate: "NEW - 4 HRS AGO",
       bottomInfo: [
         {

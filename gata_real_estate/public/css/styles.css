@@ -24,6 +24,7 @@ a {
 
 #header {
   font-size: 2rem;
+  margin-bottom: 1.55em;
 }
 
 .navbar {
@@ -58,6 +59,10 @@ a {
 
 #header .button {
   padding: 10px 15px 10px;
+}
+
+#header .button:hover {
+  background-color: #4d4c7d;
 }
 
 .container {
@@ -116,6 +121,9 @@ a {
 }
 
 #searchBar {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
   border-radius: 8px;
   height: 2em;
   width: 25em;
@@ -128,6 +136,10 @@ a {
   width: 95%;
   margin: 10px;
   margin-top: 12px;
+}
+
+#searchBar a {
+  margin: auto;
 }
 
 #cityCards {
@@ -275,6 +287,7 @@ a {
 }
 
 #footer p {
+  margin-top: 1.5em;
   padding-top: 20px;
   padding-bottom: 10px;
 }
