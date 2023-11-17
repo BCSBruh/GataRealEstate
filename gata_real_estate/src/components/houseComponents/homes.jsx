@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./houseCard";
 
-function Homes() {
+function Homes(props) {
   const numOfHouses = [];
   for (let i = 0; i < houseCards.houses.length; i++) {
     numOfHouses.push(

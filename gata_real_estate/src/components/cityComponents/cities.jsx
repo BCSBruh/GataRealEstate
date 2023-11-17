@@ -11,7 +11,7 @@ const cityCards = {
     {
       cityId: "atlanta",
       href: "#header",
-      text: "Atlanta, GA",
+      text: "Savannah, GA",
     },
   ],
 };

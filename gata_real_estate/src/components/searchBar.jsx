@@ -8,9 +8,9 @@ function SearchBar(props) {
     //setSearchInput(event.target.value);
     if (
       searchInput !== "statesboro, ga" &&
-      searchInput !== "atlanta, ga" &&
+      searchInput !== "savannah, ga" &&
       searchInput !== "statesboro" &&
-      searchInput !== "atlanta"
+      searchInput !== "savannah"
     ) {
       //Turn this into redirect
       alert("You searched " + searchInput + ". That is the wrong city buddy");

@@ -41,17 +41,22 @@ function HouseInfo(props) {
         </div>
       </div>
       <div className="right-column">
-        <div className="tour">
+        <form className="tour">
           <div className="text">
             <p>Check out a VR tour here</p>
           </div>
           <div className="button">
-            <button>Take me there!</button>
+            <button
+              type="submit"
+              formAction="https://www.youtube.com/embed/pEqYEa94vhU?si=XgmABKmbjxRWciTx"
+            >
+              Take me there!
+            </button>
           </div>
           <div className="button">
             <button>Request Info</button>
           </div>
-        </div>
+        </form>
       </div>
     </div>
   );
