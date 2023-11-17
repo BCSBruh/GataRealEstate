@@ -1,0 +1,312 @@
+/*
+Color Palette for the website:
+#363062 --Dark blue
+#4D4C7D --Pale blue
+#F99417 --Gold
+#F5F5F5 --"Off" white
+*/
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: basline;
+  background: transparent;
+  font-family: helvetica, arial, sans-serif;
+  background-size: cover;
+}
+
+#header {
+  font-size: 2rem;
+  margin-bottom: 1.55em;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #363062;
+  display: flex;
+  flex-direction: row;
+}
+
+.company {
+  margin: 5px;
+  margin-left: 20px;
+  margin-right: 0;
+  text-align: left;
+  width: 5%;
+  font-size: 2rem;
+  padding: 10px 0 10px;
+}
+
+.navbar a {
+  color: #fca311;
+}
+
+#header .search-buttons {
+  margin: auto;
+  justify-content: left;
+  width: 100%;
+  font-size: 1.25rem;
+}
+
+#header .button {
+  padding: 10px 15px 10px;
+}
+
+#header .button:hover {
+  background-color: #4d4c7d;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 10px;
+  margin: 0.7em;
+}
+
+#splash {
+  height: 40em;
+  background-color: #e5e5e5;
+  background-image: url(../images/splashBackground.jpg);
+  background-size: cover;
+  font-size: 1.2rem;
+  margin-top: 50px;
+  color: #f99417;
+}
+
+#splash a {
+  color: #f99417;
+  font-size: 1.4rem;
+}
+
+#splash .title {
+  width: 30%;
+  text-align: center;
+  padding-bottom: 30px;
+  font-size: 3rem;
+}
+
+#splash .search-buttons {
+  width: 15%;
+}
+
+.button {
+  float: left;
+  text-align: center;
+}
+
+#splash .button {
+  width: 50%;
+  background-color: #4d4c7d80;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+#splash .button a {
+  font-size: 2rem;
+}
+
+#splash .button:hover {
+  background-color: #f5f5f5;
+}
+
+#searchBar {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  border-radius: 8px;
+  height: 2em;
+  width: 25em;
+  top: 55%;
+  background-color: #f5f5f5;
+}
+
+#searchBar input {
+  text-align: left;
+  width: 95%;
+  margin: 10px;
+  margin-top: 12px;
+}
+
+#searchBar a {
+  margin: auto;
+}
+
+#cityCards {
+  height: 30em;
+}
+
+#cityCards h2 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  top: 0;
+}
+
+.cards {
+  display: flex;
+  width: 75%;
+  height: 100%;
+}
+
+.card {
+  background-color: #4d4c7d;
+  background-size: cover;
+  width: 45%;
+  border-radius: 10px;
+  margin: 0 5% 0;
+  /* box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.3) inset; */
+}
+
+.card h3 {
+  padding-left: 15px;
+  padding-top: 10px;
+  font-size: 1.5rem;
+  color: #f5f5f5;
+  text-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+#city a {
+  width: 45%;
+}
+
+#atlanta {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/atlanta.jpg);
+}
+
+#atlanta:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url(../images/atlanta.jpg);
+}
+
+#statesboro {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/statesboro.jpg);
+}
+
+#statesboro:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
+    url(../images/statesboro.jpg);
+}
+
+#recentHomes {
+  height: 25em;
+}
+
+#recentHomes h2 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  top: 0;
+}
+
+.house-card {
+  width: 15%;
+  padding: 0 0.75% 0;
+}
+
+#recentHomes .card {
+  width: 100%;
+  margin: auto;
+  height: 50%;
+}
+
+#recentHomes .card h3 {
+  font-size: 0.6rem;
+  color: black;
+}
+
+#recentHomes .bottom-info * {
+  padding: 1% 0;
+}
+
+#recentHomes .info {
+  display: flex;
+  margin: auto;
+  justify-content: left;
+}
+
+#recentHomes .info p {
+  display: inline;
+  text-align: left;
+  padding: 0;
+}
+
+#recentHomes .info-details {
+  display: flex;
+  margin: 0;
+  align-items: center;
+}
+
+.image {
+  margin: auto;
+}
+
+#recentHomes .info-details img {
+  height: 100%;
+  width: 20px;
+}
+
+.realtor p {
+  font-size: 0.75rem;
+}
+
+#house1 .card {
+  background-image: url(../images/House1.jpg);
+}
+
+#house1 .card:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../images/House1.jpg);
+}
+
+#house2 .card {
+  background-image: url(../images/House2.jpg);
+}
+
+#house2 .card:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../images/House2.jpg);
+}
+
+#footer {
+  text-align: center;
+  width: 50%;
+  vertical-align: bottom;
+  margin: auto;
+  height: 1em;
+}
+
+#footer p {
+  margin-top: 1.5em;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.carousel-container {
+  background: #f1f1f1;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  width: 50em;
+  height: 30rem;
+  margin: auto;
+}
+
+.carousel-item {
+  min-width: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+}
