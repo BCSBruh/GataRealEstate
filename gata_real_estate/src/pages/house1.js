@@ -13,12 +13,12 @@ function House1(props) {
       </div>
   */
 
-  var imageData = ["1", "2"];
+  var imageData = ["1-0", "1-1", "1-2", "1-3", "1-4", "1-5", "1-6", "1-7"];
   return (
     <>
       <Header />
       <Carousel data={imageData} />
-      <HouseInfo />
+      <HouseInfo home={props} />
       <Survey />
       <Footer />
     </>

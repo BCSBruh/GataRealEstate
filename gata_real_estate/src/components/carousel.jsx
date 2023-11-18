@@ -23,7 +23,7 @@ function Carousel(props) {
       {data.map((item, index) => {
         return (
           <img
-            src={`./images/House${item}.jpg`}
+            src={`./images/House${item}.webp`}
             alt="house-1"
             className="carousel-item"
             style={{ transform: `translate(-${currentIndex * 100}%)` }}

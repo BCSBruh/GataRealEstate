@@ -1,13 +1,19 @@
 import React from "react";
 import Header from "../components/header";
 import Footer from "../components/footer";
-import Carousel from "../components/carousel";
 import HouseInfo from "../components/houseComponents/houseInfo";
 import Survey from "../components/survey";
+import Carousel from "../components/carousel";
 import "./houseStyles.css";
 
-function House2(props) {
-  var imageData = ["2-0", "2-1", "2-2", "2-3", "2-4", "2-5", "2-6", "2-7"];
+function House3(props) {
+  /*
+  <div className="house-pictures">
+        <img src="./images/House1.jpg" alt="house-1"></img>
+      </div>
+  */
+
+  var imageData = ["1.1-0", "1-1", "1-2", "1-3", "1-4", "1-5", "1-6", "1-7"];
   return (
     <>
       <Header />
@@ -19,4 +25,4 @@ function House2(props) {
   );
 }
 
-export default House2;
+export default House3;

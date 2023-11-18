@@ -34,6 +34,7 @@ a {
   background-color: #363062;
   display: flex;
   flex-direction: row;
+  z-index: 999;
 }
 
 .company {
@@ -181,12 +182,12 @@ a {
 
 #atlanta {
   background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
-    url(../images/atlanta.jpg);
+    url(../images/savannah.jpg);
 }
 
 #atlanta:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),
-    url(../images/atlanta.jpg);
+    url(../images/savannah.jpg);
 }
 
 #statesboro {
@@ -261,21 +262,39 @@ a {
 }
 
 #house1 .card {
-  background-image: url(../images/House1.jpg);
+  background-image: url(../images/House1-0.webp);
 }
 
 #house1 .card:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url(../images/House1.jpg);
+    url(../images/House1-0.webp);
 }
 
 #house2 .card {
-  background-image: url(../images/House2.jpg);
+  background-image: url(../images/House2-0.webp);
 }
 
 #house2 .card:hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
-    url(../images/House2.jpg);
+    url(../images/House2-0.webp);
+}
+
+#house3 .card {
+  background-image: url(../images/House1.1-0.webp);
+}
+
+#house3 .card:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../images/House1.1-0.webp);
+}
+
+#house4 .card {
+  background-image: url(../images/House2.1-0.webp);
+}
+
+#house4 .card:hover {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+    url(../images/House2.1-0.webp);
 }
 
 #footer {
@@ -300,6 +319,8 @@ a {
   width: 50em;
   height: 30rem;
   margin: auto;
+  z-index: 0;
+  border-radius: 10px;
 }
 
 .carousel-item {
@@ -309,4 +330,5 @@ a {
   align-items: center;
   justify-content: center;
   transition: 1s cubic-bezier(0.39, 0.575, 0.565, 1);
+  overflow: hidden;
 }

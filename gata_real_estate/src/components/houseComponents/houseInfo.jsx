@@ -2,6 +2,13 @@ import React from "react";
 import Info from "./info";
 
 function HouseInfo(props) {
+  const state =
+    props.home.house.bottomInfo[0].address[0].city +
+    ", " +
+    props.home.house.bottomInfo[0].address[0].state +
+    " " +
+    props.home.house.bottomInfo[0].address[0].zip;
+
   return (
     <div className="house-info">
       <div className="left-column">
@@ -10,19 +17,17 @@ function HouseInfo(props) {
             <div>
               <h2>
                 <span className="street">
-                  props.bottomInfo[0].address[0].street
+                  {props.home.house.bottomInfo[0].address[0].street}
                 </span>
                 <br />
-                <span className="state">
-                  props.bottomInfo[0].address[0].state
-                </span>
+                <span className="state">{state}</span>
               </h2>
             </div>
             <br />
-            <Info info={information.info} />
+            <Info info={props.home.house.bottomInfo[0].info} />
           </div>
           <div className={"price"}>
-            <h3>props.bottomInfo[0].price</h3>
+            <h3>{props.home.house.bottomInfo[0].price}</h3>
             <div>Est. Mortgage 1,445/mo</div>
             <span></span>
           </div>
@@ -30,14 +35,7 @@ function HouseInfo(props) {
         <div className="description">
           <h1>Description</h1>
           <br />
-          <p>
-            New construction home in the heart of Statesboro! The home features
-            3 bedrooms, 2 bathrooms, and is conveniently located within walking
-            distance to shopping and restaurants! Call today to make this brand
-            new home your own! All plans, specifications, renderings, and
-            finishes are subject to change at builder's discretion. Owner is a
-            licensed realtor in the state of Georgia
-          </p>
+          <p>{props.home.house.description}</p>
         </div>
       </div>
       <div className="right-column">
@@ -46,10 +44,7 @@ function HouseInfo(props) {
             <p>Check out a VR tour here</p>
           </div>
           <div className="button">
-            <button
-              type="submit"
-              formAction="https://www.youtube.com/embed/pEqYEa94vhU?si=XgmABKmbjxRWciTx"
-            >
+            <button type="submit" formAction={props.home.house.link}>
               Take me there!
             </button>
           </div>
