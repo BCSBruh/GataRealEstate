@@ -6,7 +6,7 @@ function Header() {
     <div id="header" className="container">
       <nav className="navbar">
         <div className="company">
-          <a href="/#header">GRE</a>
+          <a href="/#header">GATA</a>
         </div>
         <SearchButtons />
       </nav>
@@ -15,3 +15,4 @@ function Header() {
 }
 
 export default Header;
+
