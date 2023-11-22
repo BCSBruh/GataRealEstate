@@ -5,7 +5,7 @@ function SearchButtons() {
   return (
     <div className="search-buttons">
       <Button href="/buy" buttonName="Buy" />
-      <Button href="/rent" buttonName="Rent" />
+      <Button href="/rent" buttonName="Contact" />
     </div>
   );
 }
